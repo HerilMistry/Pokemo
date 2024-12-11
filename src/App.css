@@ -1,0 +1,24 @@
+.card p {
+  font-size: 16px;
+  color: #444;
+  margin: 5px 0;
+}
+
+.card p strong {
+  color: #2a75bb;
+}
+
+.pokemon-images img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.pokemon-sprite {
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.pokemon-sprite:hover {
+  transform: scale(1.2);
+}
